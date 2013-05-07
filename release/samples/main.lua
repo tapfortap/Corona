@@ -4,6 +4,12 @@ local widget = require "widget"
 local MALE = 0
 local FEMALE = 0
 
+local TOP = 1
+local CENTER = 2
+local BOTTOM = 3
+local LEFT = 1
+local RIGHT = 3
+
 -- The ad view listener function. Prints the event's name and message to the console.
 local function adViewListener(event)
     print(event.name, "adViewListener " .. event.event .. " " .. event.message)
@@ -22,7 +28,7 @@ end
 -- Function to handle when the showAd button is clicked. It will create an ad view at the bottom center of the screen.
 local function showAd( event )
     if event.phase == "ended" then
-        tapfortap.createAdView(2,3)
+        tapfortap.createAdView(BOTTOM,CENTER)
     end
 end
 

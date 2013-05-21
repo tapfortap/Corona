@@ -1,3 +1,3 @@
 The Tap for Tap Corona Plugin
 
-The source will be avaialable as soon as possible. Thanks for your patience.
+The source will be available as soon as possible. Thank you for your patience.

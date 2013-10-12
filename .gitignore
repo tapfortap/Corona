@@ -1,0 +1,11 @@
+.DS_Store
+.Trashes
+*.swp
+*.lock
+*~.nib
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+xcuserdata
+*.moved-aside
